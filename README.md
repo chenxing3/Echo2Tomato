@@ -36,7 +36,7 @@ To begin this process, please run the Step0_preprocess_spectrogram.py script. In
 
     $ python Step0_preprocess_spectrogram.py --directory=/your_data_path/
 
-* the script collects all the data in the file './result/spectrogram_uniformed.feather'.
+* all the data will be collected the one file './result/spectrogram_uniformed.feather'.
 
 ## Step2 Model Training
 To proceed, please run the Step1_training.py script. In this step, the frequency patterns were transformed into sequences, which were subsequently tokenized using the 'subword_model_bpe_10000.model' that was created using Byte-Pair Encoding (BPE) methodology. For pretraining the data, I employed the 'GPT2LMHeadModel' to facilitate the training process.
