@@ -32,7 +32,9 @@ To begin this process, please run the Step0_preprocess_spectrogram.py script. In
 
     $ python Step0_preprocess_spectrogram.py 
 
-* Please move the all the feather data to 'data' folder or specify the data directory using following command:
+* Please copy the all the feather data to 'data' folder
+
+or specify the data directory using following command (optimal):
 
     $ python Step0_preprocess_spectrogram.py --directory=/your_data_path/
 
