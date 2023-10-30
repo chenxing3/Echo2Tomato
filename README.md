@@ -6,6 +6,8 @@ In this project, I developed a GPT-2 model designed to detect specific frequency
 # Dependencies
 transformers (support both pytorch and tensorflow: https://github.com/huggingface/notebooks/blob/main/examples/text_classification-tf.ipynb)
 
+sentencepiece
+
 datasets
 
 pandas
