@@ -4,7 +4,7 @@ In this project, I developed a GPT-2 model designed to detect specific frequency
 
 
 # Dependencies
-transformers (Both pytorch and tensorflow: https://github.com/huggingface/notebooks/blob/main/examples/text_classification-tf.ipynb)
+transformers (support both pytorch and tensorflow: https://github.com/huggingface/notebooks/blob/main/examples/text_classification-tf.ipynb)
 datasets
 
 pandas
@@ -15,7 +15,7 @@ tqdm
 argparse
 matplotlib
 
-torch (Since the I add 'classification' layers using pytorch. If using Tensorflow, please rewrite class of Identity and Classify layer.
+torch (Since the I add 'classification' layers using pytorch. If using Tensorflow, please rewrite class of Identity and Classify layer (detail in step2 in below)
 
 
 # Executing
